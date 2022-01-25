@@ -3,6 +3,18 @@ const ejercicio1 = [
   19, 88, 456, 13, 23, 24,
 ];
 
+const esPrimo = num => {
+  for (let i = 2; i < num; i++) {
+    if(num % i == 0); 
+  }
+  return true;
+}
+
+ejercicio1.forEach(num => {
+  console.log("%s", num, esPrimo(num));
+})
+
+
 const ejercicio2 = [
   {
     nombre: "Gabriel",
